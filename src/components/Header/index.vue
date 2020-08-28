@@ -6,10 +6,13 @@
 
 <script>
   export default {
-    name: "header",
+    name: "Header",
+    //props是子组件访问父组件数据的唯一接口，默认是神影电影
     props: {
-      title: String,
-      default: '神影电影'
+      title: {
+        type: String,
+        default: '神影电影'
+      }
     }
   }
 </script>
@@ -18,7 +21,8 @@
   #header {
     width: 100%;
     height: 50px;
-    color: #e54847;
+    color: #ffffff;
+    background: #e54847;
     border-bottom: 1px solid #e54847;
     position: relative;
   }

@@ -48,7 +48,6 @@
   
   #footer li.active {
     color: #f03d37;
-    
   }
   
   #footer li.router-link-active {
