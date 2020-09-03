@@ -1,13 +1,13 @@
 <template>
   <div id="app">
     <keep-alive>
-      <div>
+<!--      <div>
         <router-link to="/b">bbb</router-link>
         |
         <router-link to="/a">ccc</router-link>
         |
         <router-link to="/mine">mine</router-link>
-      </div>
+      </div>-->
       
       <router-view/>
     </keep-alive>

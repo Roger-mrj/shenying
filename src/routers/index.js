@@ -7,17 +7,9 @@ import movie from './movie';
 Vue.use(VueRouter)
 
 const routes = [
-  /*    {
-        path: '',
-        redirect: '/a'
-      },*/
   {
-    path: '/b',
-    component: ()=>import('../components/Header')
-  },
-  {
-    path: '/a',
-    component: () => import('../components/TabBar')
+    path: '',
+    redirect: movie
   },
   cinema,
   mine,
