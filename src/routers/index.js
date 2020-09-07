@@ -13,7 +13,8 @@ const routes = [
   },
   cinema,
   mine,
-  movie
+  movie,
+
 ]
 
 const router = new VueRouter({

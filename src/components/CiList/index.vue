@@ -11,8 +11,8 @@
           <span>>100km</span>
         </div>
         <div class="card">
-          <div>小吃</div>
-          <div>折扣卡</div>
+          <div class="snack">小吃</div>
+          <div class="discount">折扣卡</div>
         </div>
       </li>
       <li>
@@ -25,8 +25,8 @@
           <span>>120km</span>
         </div>
         <div class="card">
-          <div>小吃</div>
-          <div>折扣卡</div>
+          <div class="snack">小吃</div>
+          <div class="discount">折扣卡</div>
         </div>
       </li>
       <li>
@@ -39,8 +39,8 @@
           <span>>80km</span>
         </div>
         <div class="card">
-          <div>小吃</div>
-          <div>折扣卡</div>
+          <div class="snack">小吃</div>
+          <div class="discount">折扣卡</div>
         </div>
       </li>
       <li>
@@ -53,8 +53,8 @@
           <span>>110km</span>
         </div>
         <div class="card">
-          <div>小吃</div>
-          <div>折扣卡</div>
+          <div class="snack">小吃</div>
+          <div class="discount">折扣卡</div>
         </div>
       </li>
     </ul>
@@ -108,6 +108,9 @@
   }
   .cinema_body .card div{
     border: 1px solid #f90;
+    color: #f90;
+    font-size: 15px;
+    border-radius: 2px;
   }
-
+  
 </style>
